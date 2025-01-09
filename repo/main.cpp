@@ -20,6 +20,16 @@ using namespace std;
 
 int main()
 {
+	TempSensor* ptr;
+	TempSensor TO1;
+	ptr = &TO1;
+	ptr->sensorID = 1331;
+	ptr->voltageData = 56;
+
+	copyDatatoLayer1(ptr);
+	copyDatatoLayer2(ptr);
+	copyDatatoLayer3(ptr);
+
 	Layer1_init();
 	Layer2_init();
 	Layer3_init();

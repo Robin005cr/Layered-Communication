@@ -16,3 +16,7 @@ struct TempSensor
 	int voltageData;
 
 };
+
+void copyDatatoLayer1(TempSensor* ptr);
+void copyDatatoLayer2(TempSensor* ptr);
+void copyDatatoLayer3(TempSensor* ptr);

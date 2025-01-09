@@ -19,6 +19,10 @@ void Layer3_init()
 {
 	cout << "Layer3 started " << endl;
 }
+void copyDatatoLayer3(TempSensor* ptr)
+{
+
+}
 void encryptData()
 {
 

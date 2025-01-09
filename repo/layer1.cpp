@@ -18,9 +18,14 @@ using namespace std;
 void Layer1_init()
 {
 	cout << "Layer1 started " << endl;
-}
 
-void voltageToValue()
+
+}
+void copyDatatoLayer1(TempSensor* ptr)
+{
+
+}
+void voltageToValue(TempSensor* ptr)
 {
 
 }

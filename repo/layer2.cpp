@@ -19,7 +19,10 @@ void Layer2_init()
 {
 	cout << "Layer2 started " << endl;
 }
+void copyDatatoLayer2(TempSensor* ptr)
+{
 
+}
 void sensorCalibration()
 {
 
