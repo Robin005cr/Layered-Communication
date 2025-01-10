@@ -15,7 +15,7 @@
 using namespace std;
 
 
-void Layer2_init()
+void Layer2_init(float value)
 {
 	cout << "Layer2 started " << endl;
 }

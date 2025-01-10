@@ -10,4 +10,4 @@
 * I value constructive feedback and aim to continuously improve the quality of the work.
 *
 */
-void Layer2_init();
+void Layer2_init(float value);

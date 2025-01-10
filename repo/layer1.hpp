@@ -10,4 +10,5 @@
 * I value constructive feedback and aim to continuously improve the quality of the work.
 *
 */
-void Layer1_init();
+float Layer1_init();
+float voltageToValue(TempSensor* ptr);

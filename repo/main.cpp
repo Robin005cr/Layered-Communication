@@ -30,8 +30,8 @@ int main()
 	copyDatatoLayer2(ptr);
 	copyDatatoLayer3(ptr);
 
-	Layer1_init();
-	Layer2_init();
+	float temperature = Layer1_init();
+	Layer2_init(temperature);
 	Layer3_init();
 	
 	return 0;

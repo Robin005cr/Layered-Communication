@@ -12,20 +12,24 @@
 */
 #include<iostream>
 #include "commonData.hpp"
+#include "layer1.hpp"
 using namespace std;
 
+TempSensor copiedLayer1;
 
-void Layer1_init()
+float Layer1_init()
 {
 	cout << "Layer1 started " << endl;
-
+	float temperature = voltageToValue(&copiedLayer1);
+	return temperature;
 
 }
 void copyDatatoLayer1(TempSensor* ptr)
 {
-
+	copiedLayer1.sensorID = ptr->sensorID;  // Copy sensorID
+	copiedLayer1.voltageData = ptr->voltageData;  // Copy voltageData
 }
-void voltageToValue(TempSensor* ptr)
+float voltageToValue(TempSensor* ptr)
 {
-
+	return ptr->voltageData * 100.0f;
 }
